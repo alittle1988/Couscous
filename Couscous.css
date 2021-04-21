@@ -1,0 +1,104 @@
+html { 
+  background: url(https://previews.123rf.com/images/milkos/milkos1703/milkos170300363/73796371-baking-background-cooking-ingredients-for-yeast-dough-and-pastry-eggs-flour-and-milk-on-white-rustic.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+font-size: 20px;}
+
+  /* Universal Styles*/
+ 
+
+/* header */
+
+.img2{background-image: url(https://www.jessicagavin.com/wp-content/uploads/2019/03/mediterranean-couscous-salad-2-1200.jpg);
+  background-size: cover;
+  background-position: 50% center;
+  height: 100px;
+  width: 1000px;
+  margin: 0 auto;
+  
+}
+
+
+
+/* body section */
+
+table,th,td{
+  text-align:center;
+  border: 1px solid black;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:beige;
+}
+body{
+  text-align:center;
+  font-size: 1.5rem;
+
+}
+
+.left{
+  text-align:left;
+}
+li{text-align:left;}
+
+img{
+  border-radius:50%;
+  width:500px;
+  height: 550px;
+  margin-left:100px;
+  float:right;
+}
+h3{text-align: left;}
+
+
+/* first Recipe section */
+
+.img1rec{
+  position: relative;
+  bottom:100px;
+}
+/* 2nd Recipe section */
+ 
+
+/* 3rd Recipe section  */
+
+
+
+.list{float: left;}
+
+ .list2{float: right;}
+
+/* footer section */
+
+footer p{ font-size: 50px;}
+
+
+ /*input sections*/
+
+
+.texta {position: relative;
+  top: 5px;
+  z-index: 10;
+}
+
+ 
+ 
+
+@media only screen and (max-width:480px){
+  body{font-size: 12px;
+  }
+  .img1rec {display: none;}
+
+  .img2 {width: 100%;height: 75%;}
+
+  .list  {float: none;}
+  .list2 {float: none;}
+  footer p { font-size: 12px;}
+  
+}
+
+@media only screen and (max-width:1024px){
+  .img1rec{display: none;}
+  .img2 {width: 100%; height: 75%;}
+}
